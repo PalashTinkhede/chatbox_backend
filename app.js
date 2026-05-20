@@ -46,6 +46,7 @@ cloudinary.config({
 });
 
 const app = express();
+app.set("trust proxy", 1);
 const server = createServer(app);
 const io = new Server(server, {
   cors: corsOptions,
