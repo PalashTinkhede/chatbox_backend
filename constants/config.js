@@ -1,5 +1,5 @@
 const corsOptions = {
-  origin: "https://chat-box-frontend-coral.vercel.app",
+  origin: "https://victorious-island-0ebdaa200.7.azurestaticapps.net/",
 
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
